@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 今、情热が岚になって
+title: 夢を追う少年
 ---
 ## 近期
 
