@@ -5,9 +5,9 @@ kramdown:
 permalink: /posts/:categories/:title # 博文目录
 baseurl: "/wu-kan.github.io-master" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/public`前也要加，即`/your_baseurl/public`。这一项结尾不要有'/'
 
-title: wu-kan
-url: http://wu-kan.github.io
-author: WuK
+title: Haowei
+url: https://haowei404.github.io/
+author: Zwh
 
 head: # 删改前确定知道自己在做什么
 - tag: meta # Enable responsiveness on mobile devices
@@ -62,13 +62,13 @@ head: # 删改前确定知道自己在做什么
     value: RSS
   - key: type
     value: application/rss+xml
-- tag: link # 网站大图标，我偷懒直接用gravatar了，也可以存在/public里面
+- tag: ./public/image/ico.jpg # 网站大图标，我偷懒直接用gravatar了，也可以存在/public里面
   var:
   - key: rel
     value: apple-touch-icon-precomposed
   - key: href
     value: //www.gravatar.com/avatar/a12c5fff23dde00df79af9aca4e7b6e4?d=wavatar&s=144
-- tag: link # 小图标，同上
+- tag: ./public/image/ico.jpg # 小图标，同上
   var:
   - key: rel
     value: 'shortcut icon'
@@ -181,25 +181,17 @@ sidebar:
   - title: rss
     href: /atom.xml
     class: 'fas fa-rss fa-fw'
-  - title: wu.kan@foxmail.com # email
-    href: mailto:wu.kan@foxmail.com
+  - title: 745658693@qq.com # email
+    href: 745658693@qq.com
     class: 'fas fa-envelope fa-fw'
-  - title: WuK # codeforces
-    href: //codeforces.com/profile/WuK
-    class: 'fas fa-chart-bar fw'
-  - title: WuK # vjudge
-    href: //vjudge.net/user/WuK
-    class: 'fas fa-smile fa-fw'
-  - title: 942759535 # qq
+  - title: 745658693 # qq
     class: 'fab fa-qq fa-fw'
-  - title: Wu-_-Kan # weixin
+  - title: 13178548339 # weixin
     class: 'fab fa-weixin fa-fw'
   - title: github
-    href: //github.com/wu-kan
+    href: //github.com/Haowei404
     class: 'fab fa-github fa-fw'
-  - title: zhihu
-    href: //www.zhihu.com/people/wu.kan/activities
-    class: 'fab fa-zhihu fa-fw'
+  
   nav:
   - title: '<i class="fas fa-home fa-fw"></i> 首页'
     href: /
