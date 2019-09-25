@@ -62,13 +62,13 @@ head: # 删改前确定知道自己在做什么
     value: RSS
   - key: type
     value: application/rss+xml
-- tag: ./public/image/ico.jpg # 网站大图标，我偷懒直接用gravatar了，也可以存在/public里面
+- tag: link # 网站大图标，我偷懒直接用gravatar了，也可以存在/public里面
   var:
   - key: rel
     value: apple-touch-icon-precomposed
   - key: href
     value: //www.gravatar.com/avatar/a12c5fff23dde00df79af9aca4e7b6e4?d=wavatar&s=144
-- tag: ./public/image/ico.jpg # 小图标，同上
+- tag: link # 小图标，同上
   var:
   - key: rel
     value: 'shortcut icon'
