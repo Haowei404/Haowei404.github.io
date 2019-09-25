@@ -3,7 +3,7 @@ kramdown:
   input: GFM # Github Flavored Markdown
   math_engine: katex # 防止行间公式渲染错误
 permalink: /posts/:categories/:title # 博文目录
-baseurl: "/wu-kan.github.io-master" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/public`前也要加，即`/your_baseurl/public`。这一项结尾不要有'/'
+baseurl: "/Haowei404.github.io-master" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/public`前也要加，即`/your_baseurl/public`。这一项结尾不要有'/'
 
 title: Haowei
 url: https://haowei404.github.io/
@@ -62,7 +62,7 @@ head: # 删改前确定知道自己在做什么
     value: RSS
   - key: type
     value: application/rss+xml
-- tag: link # 网站大图标，我偷懒直接用gravatar了，也可以存在/public里面
+- tag: link # 网站大图标
   var:
   - key: rel
     value: apple-touch-icon-precomposed
@@ -269,9 +269,9 @@ post:
     text: 如果我的博客帮助到你，可以请我喝一杯咖啡~
     img: # 万一真的有人打赏呢~
     - id: wechat
-      src: /public/image/wechatpay.jpg
+      src: /public/image/wechat.jpg
     - id: alipay
-      src: /public/image/alipay.jpg
+      src: /public/image/zhifubao.jpg
 
 valine:
   enable: true
