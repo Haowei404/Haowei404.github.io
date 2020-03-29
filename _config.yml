@@ -175,7 +175,7 @@ sidebar:
   avatar: # 侧边栏显示的头像
     enable: true
     img:  https://raw.githubusercontent.com/Haowei404/Haowei404.github.io/master/public/image/002.jpg# 头像的地址
-    info: <br/>SYSU16级在读<br/>大数据方向<br/>永远喜欢敲代码<br/>上一句话是假的<br/>ACMer # 头像背后的信息
+    info: <br/>SYSU16级在读<br/>大数据方向<br/>永远喜欢敲代码<br/>上一句话是假的<br/>头发逐渐稀少身体日益肥胖 # 头像背后的信息
   description: '<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=52 src="//music.163.com/outchain/player?type=2&id=496869422&auto=1&height=32"></iframe>'
   social:
   - title: rss
@@ -244,7 +244,7 @@ sidebar:
 
 index:
   showtag:
-  - ICPC模板
+  - model
 
 post:
   meta:
