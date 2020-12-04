@@ -216,10 +216,12 @@ sidebar:
     href: /comments
   - title: '<i class="fas fa-tags fa-fw"></i> 标签'
     href: /tags
-  - title: '<i class="fas fa-archive fa-fw"></i> 归档'
-    href: /mota
+  # - title: '<i class="fas fa-archive fa-fw"></i> 归档'
+  #   href: /mota
   - title: '<i class="fas fa-archive fa-fw"></i> 魔塔'
     href: /mota
+  # - title: '<i class="fas fa-archive fa-fw"></i> 魔塔'
+  #   href: /mota
   simple_jekyll_search:
     enable: true
     autoloader: /public/simple-jekyll-search/autoloader.js
