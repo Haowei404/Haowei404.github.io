@@ -203,6 +203,8 @@ sidebar:
     href: /tags
   - title: '<i class="fas fa-archive fa-fw"></i> 归档'
     href: /archive
+  - title: '<i class="fas fa-archive fa-fw"></i> 魔塔'
+    href: /mota
   simple_jekyll_search:
     enable: true
     autoloader: /public/simple-jekyll-search/autoloader.js
