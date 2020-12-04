@@ -1,5 +1,6 @@
 //确保页面内容都载入了
 window.onload = function () {
+	console.log('onload')
 	//测试是否出错，如果出错抛出错误
 	try {
 		/* 初始化 */
