@@ -80,6 +80,11 @@ head: # 删改前确定知道自己在做什么
     value: stylesheet
   - key: href
     value: /public/css/poole.css # 用cdn加速会出问题，暂时不知道为什么
+  var:
+  - key: rel
+    value: stylesheet
+  - key: href
+    value: /public/css/Layout.css # 用cdn加速会出问题，暂时不知道为什么
 - tag: link
   var:
   - key: rel
@@ -126,6 +131,20 @@ script: # 需要在正文后调用的脚本或者插件的autoloader
 - var:
   - key: src
     value: /public/js/mermaid.js
+  - key: src
+    value: /public/js/Items.js
+  - key: src
+    value: /public/js/IconsData.js
+  - key: src
+    value: /public/js/Enemys.js
+  - key: src
+    value: /public/js/Maps.js
+  - key: src
+    value: /public/js/Switchs.js
+  - key: src
+    value: /public/js/Events.js
+  - key: src
+    value: /public/js/Core.js
   - key: js
     value: //cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
   - key: stylesheet
