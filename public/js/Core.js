@@ -45,6 +45,7 @@ window.onload = function () {
 						if (GlobalAnimate[i][1] != null) {
 							var Step = [0, 32, 96, 64]; //定义动画顺序
 							ResName = GlobalAnimate[i][2]; //获得该帧动画的资源名
+							console.log('ResName',ResName)
 							IconX = Step[GlobalAnimateStep];
 							IconY = GlobalAnimate[i][5][2];
 							IconW = GlobalAnimate[i][5][3];
@@ -161,6 +162,7 @@ window.onload = function () {
 			//加载资源
 			function LoadResource(ResPath, ResNameList, callback) {
 				var ResTemp = {}; //临时存储对象
+				console.log('ResNameList',ResNameList)
 				for (var r = 0; r < ResNameList.length; r++) {
 					var ResName = ResNameList[r]; //获得资源名称
 					UpdateLoadTip("Load " + ResName + ".png...");
@@ -170,6 +172,7 @@ window.onload = function () {
 						var rnum = 0; //资源个数
 						ResData[ResName] = Img; //存入图片对象数组
 						UpdateLoadTip(ResName + ".png - Done");
+						console.log('ResName',ResName)
 						var Num = parseInt(LoadProgressBar.offsetWidth / ResNum); //计算进度
 						UpdateLoadProgress(NowProgress += Num);
 						for (var r in ResData) { rnum++ }; //统计资源数量
