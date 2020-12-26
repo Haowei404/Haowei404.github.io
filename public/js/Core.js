@@ -328,7 +328,7 @@ window.onload = function () {
 						return false;
 					}
 				}
-
+				
 				for (var n = 0; n < NpcLocation.length; n++) {
 					if (X == NpcLocation[n][2] && Y == NpcLocation[n][3]) {
 						if (Type == "Fly") {
